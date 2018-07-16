@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-树元素项模板文件-->
+<xc_template_tree>
+    <layoutObject type="item" heightT="30" layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.padding="2,2,2,2" layout.space="2" layout.width="auto" widthT="300">
+        <elementUI height="13" left="0" top="0" width="13" />
+        <shapeText content="{binding field=name}" layout.height="fill" layout.width="auto" left="57" top="33" />
+    </layoutObject>
+</xc_template_tree>

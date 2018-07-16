@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-窗口布局文件-->
+<windowUI content="炫彩界面库 - 我的窗口名" height="436" id="111" layoutBottom="8" layoutLeft="8" layoutRight="8" layoutTop="30" left="20" showT="true" top="20" width="744">
+    <layoutObject layout.alignH="left" layout.alignV="top" layout.flag="window_position_top" layout.height="fill" layout.horizon="true" layout.padding="2,2,2,2" layout.space="2" layout.width="fill">
+        <layoutObject id="101" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="true" layout.width=":7(占用剩余空间)">
+            <layoutObject layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="true" layout.width="10" />
+            <shapeText content="PyScanner" id="105" layout.height="20" layout.width="auto" left="201" top="8" />
+        </layoutObject>
+        <layoutObject layout.alignH="right" layout.alignV="top" layout.height="fill" layout.horizon="true" layout.width=":3">
+            <buttonUI buttonType="min" height="19" id="106" left="519" top="2" width="23" />
+            <buttonUI buttonType="max" height="19" id="107" left="23" top="16" width="23" />
+            <buttonUI buttonType="close" height="19" id="108" left="671" top="17" width="23" />
+            <layoutObject layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="true" layout.width="5" />
+        </layoutObject>
+    </layoutObject>
+    <layoutObject layout.alignH="left" layout.alignV="top" layout.flag="window_position_body" layout.height="fill" layout.horizon="false" layout.padding="2,2,2,2" layout.space="2" layout.width="fill">
+        <layoutObject layout.alignH="left" layout.alignV="top" layout.height="20" layout.horizon="true" layout.width="fill">
+            <menuBarUI height="30" id="109" layout.height="fill" layout.width="fill" left="55" top="45" width="200" />
+        </layoutObject>
+        <layoutObject layout.alignH="left" layout.alignV="top" layout.height=":3" layout.horizon="false" layout.width="fill">
+            <layoutObject layout.alignH="left" layout.alignV="top" layout.height=":1" layout.horizon="true" layout.width="fill">
+                <shapeText content="URL:" layout.height="20" layout.width="auto" left="38" top="80" />
+                <richEditUI height="20" id="116" layout.width="auto" left="39" top="54" width="672" />
+            </layoutObject>
+            <layoutObject layout.alignH="left" layout.alignV="top" layout.height=":1" layout.horizon="true" layout.width="fill">
+                <shapeText content="策略：" layout.height="20" layout.width="auto" left="27" top="135" />
+                <comboBoxUI enable="true" height="20" id="112" left="52" top="123" width="231" />
+                <layoutObject layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="true" layout.width="100" />
+                <buttonUI content="开始检测" height="25" id="114" left="383" top="123" width="60" />
+            </layoutObject>
+        </layoutObject>
+        <layoutObject layout.alignH="left" layout.alignV="top" layout.height=":10" layout.horizon="true" layout.width="fill">
+            <richEditUI height="285" id="110" layout.height="fill" layout.width="fill" left="10" top="141" width="724" />
+        </layoutObject>
+    </layoutObject>
+</windowUI>
